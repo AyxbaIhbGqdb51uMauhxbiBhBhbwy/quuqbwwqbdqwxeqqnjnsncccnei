@@ -632,8 +632,8 @@ end)
 
 local far = Tabs.Main:AddSection("Farms Section 💸")
 local Toggle = Tabs.Main:AddToggle("AIMovementToggle", {
-    Title = "AI Movement",
-    Description = "Toggle AI movement",
+    Title = "AI Play",
+    Description = "AI Play",
     Default = false,
     Callback = function(state)
         movementEnabled = state
@@ -649,16 +649,7 @@ local Toggle = Tabs.Main:AddToggle("AIMovementToggle", {
     end
 })
 
-local autofar = Tabs.Main:AddToggle("MyToggle", 
-{
-    Title = "Auto Farms", 
-    Description = "Beta Version",
-    Default = false,
-    Callback = function(state)
-        CanHit = state
-        auto_win = state
-    end 
-})
+
 
 
 local ii = Tabs.Adj:AddSection("Auto Parry V1 ⚔️")
