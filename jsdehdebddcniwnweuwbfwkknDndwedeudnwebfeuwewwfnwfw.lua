@@ -521,7 +521,7 @@ ImageButton.MouseButton1Click:Connect(function()
 end)
 
 local Window = Fluent:CreateWindow({
-    Title = game:GetService("MarketplaceService"):GetProductInfo(16732694052).Name .."Star X V2",
+    Title = "Blade Ball | Star X V2",
     SubTitle = "By Code4X",
     TabWidth = 100,
     Size = UDim2.fromOffset(550, 350),
