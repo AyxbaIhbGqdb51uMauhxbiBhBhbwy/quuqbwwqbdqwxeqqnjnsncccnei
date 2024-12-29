@@ -522,8 +522,8 @@ ImageButton.MouseButton1Click:Connect(function()
 end)
 
 local Window = Fluent:CreateWindow({
-    Title = "Blade Ball | Star X V2",
-    SubTitle = "By Code4X",
+    Title = "Blade Ball | KingR",
+    SubTitle = "By Keii",
     TabWidth = 100,
     Size = UDim2.fromOffset(550, 350),
     Acrylic = false,
