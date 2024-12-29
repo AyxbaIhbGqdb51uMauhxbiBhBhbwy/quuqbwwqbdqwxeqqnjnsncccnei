@@ -1,3 +1,4 @@
+print("JACKIE ON TOP") 
 repeat
     wait()
 until game:IsLoaded()
