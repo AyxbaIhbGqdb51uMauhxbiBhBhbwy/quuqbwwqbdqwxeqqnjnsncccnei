@@ -592,7 +592,8 @@ Tabs.Main:AddButton({
     Title = "Parry Improved",
     Description = "Making Parry More Accurate",
     Callback = function()
-			loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))() 
+			loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))()
+			print(" JACKIE ON TOP") 
     end
 })
 
