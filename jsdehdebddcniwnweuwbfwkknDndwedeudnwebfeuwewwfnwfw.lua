@@ -584,10 +584,14 @@ loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", 
 end) 
 
 local Toggle = Tabs.Main:AddToggle("Config", {Title = "Auto Parry v2", Description = "This Auto Parry Based On Your Ping", Default = false })
-Toggle:OnChanged(function(state)  
-loadstring(game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true))()
-        CanHit = state
-        Paws = state
+Toggle:OnChanged(function(v)  
+    local scriptContent = game:HttpGet("https://egorikusa.space/25b3fcb620f55b445d5461ad.lua", true)
+    local loadedScript = loadstring(scriptContent)
+    if loadedScript then
+        loadedScript(v) -- Pastikan skrip yang diunduh bisa menangani parameter `v`
+    end
+    CanHit = v
+    Paws = v
 end)  
 
 Tabs.Main:AddButton({
